@@ -2,7 +2,7 @@
 ![Static Badge](https://img.shields.io/badge/compatible-compatible?style=for-the-badge&label=Hyv%C3%A4&labelColor=%230A144B&color=%230A23B9%20)
 [![Packagist](https://img.shields.io/packagist/v/rossmc/magento2-partytown?style=for-the-badge)](https://packagist.org/packages/rossmc/magento2-partytown)     
 
-This module adds the partytown library to your project with some configuration options to allow you to load some scripts such as GTM off the main thread to help with performance.
+This Magento 2 module adds the partytown library to your project with some configuration options to allow you to load some scripts such as GTM off the main thread to help with performance.
 
 > ⚠️ **Warning:** Please note that this module is still in development and has not been tested fully. Partytown is not a one-size-fits-all solution and depending on which third-party scripts you are loading and how you may need to adjust the configuration. For example if new tags or scripts are added to GTM you may need to adjust the _Load Scripts on Main Thread_ configuration. See the [partytown documentation](https://partytown.builder.io/) for more information. 
 
