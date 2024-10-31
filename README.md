@@ -33,10 +33,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 You will see your scripts loading with the updated `type="text/partytown-x"` tag in the source code.
 <img src="./docs/head.jpg" width="400" />
 
-In the Chrome DevTools Network tab you will see the gear icon by the file name to indicate the GTM script was loaded by the partytown service worker.
+In the Chrome DevTools Network tab you will see the gear icon by the file name to indicate the GTM script was loaded by the partytown service worker.      
 <img src="./docs/network.jpg" width="400" />
 
-And in the Chrome DevTools Sources panel, you will see the partytown threads.
+And in the Sources panel, you will see the partytown threads.
 
 ## Customising in your project
 If you need to override the configuration or change the partytown version you can do so by overriding them in your project. To regenerate the partytown files you can run the following commands:
