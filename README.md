@@ -19,10 +19,22 @@ After disabling the module, you can use the configuration option to _Unregister 
 
 ## Usage
 Once you have enabled the module you can load scripts with Partytown off the main thread by adding `type="text/partytown"` to the script tag. 
-See [here](https://partytown.builder.io/html) for more information on how to use partytown.
+See [here](https://partytown.builder.io/html) for more information on how to use partytown.      
+GTM for example:
+```html
+<script type="text/partytown">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-XXXXXX');</script>
+<!-- End Google Tag Manager -->
+```
 
 You will see your scripts loading with the updated `type="text/partytown-x"` tag in the source code.
 <img src="./docs/head.jpg" width="400" />
+
+In the Chrome DevTools Network tab you will see the gear icon by the file name to indicate the GTM script was loaded by the partytown service worker.
+<img src="./docs/network.jpg" width="400" />
 
 And in the Chrome DevTools Sources panel, you will see the partytown threads.
 
