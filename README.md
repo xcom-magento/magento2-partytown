@@ -2,7 +2,7 @@
 ![Static Badge](https://img.shields.io/badge/compatible-compatible?style=for-the-badge&label=Hyv%C3%A4&labelColor=%230A144B&color=%230A23B9%20)
 [![Packagist](https://img.shields.io/packagist/v/rossmc/magento2-partytown?style=for-the-badge)](https://packagist.org/packages/rossmc/magento2-partytown)     
 
-Magento 2 module to run scripts like GTM off main thread using [partytown](https://partytown.builder.io/).
+Magento 2 module to run scripts such as GTM off main thread using [partytown](https://partytown.builder.io/).
 
 **Performance Benefits**
 - [Reduced main thread work](https://developer.chrome.com/docs/lighthouse/performance/mainthread-work-breakdown)
