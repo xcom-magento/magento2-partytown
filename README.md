@@ -4,7 +4,7 @@
 
 Magento 2 module to run scripts like GTM off main thread using [partytown](https://partytown.builder.io/).
 
-## Performance Benefits
+**Performance Benefits**
 - [Reduced main thread work](https://developer.chrome.com/docs/lighthouse/performance/mainthread-work-breakdown)
 - [Reduce JavaScript execution time](https://developer.chrome.com/docs/lighthouse/performance/bootup-time/)
 - [Fewer render-blocking resources](https://developer.chrome.com/docs/lighthouse/performance/render-blocking-resources/)
